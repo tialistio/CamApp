@@ -17,6 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".OpenCamera"/>
+
     </application>
 
+    <uses-permission android:name="android.permission.CAMERA"/>
 </manifest>
